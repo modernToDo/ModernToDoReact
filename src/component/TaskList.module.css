@@ -1,0 +1,35 @@
+
+
+.taskListContainer > div{
+width: 400px;
+min-height:50vh;
+}
+
+.todo{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.task{
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    width: 300px;
+    padding:0 10px 10px;
+    border-radius: 3px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.task p{
+    font-size: 22px;
+}
+.btnDelete{
+    display: flex;
+    justify-content: space-between;
+}
+.courseBtn button{
+margin-right: 15px;
+background: #69bac8;
+border: none;
+border-radius: 4px;
+padding: 4px 10px;
+}
